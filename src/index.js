@@ -28,7 +28,7 @@ ReactDOM.render(
   <div>
     
   <h1>Hello sir, <span style={cssStyle}>{greet}</span></h1>
-  <h2> <span>{time}</span> <span>{date}</span></h2>
+  <h2> <span style={cssStyle}>{time}</span> <span style={cssStyle}>{date}</span></h2>
   </div>
   </>,
   document.getElementById('root')
